@@ -1,0 +1,22 @@
+{
+    "framebuffers": {
+        "impact_tmp": {
+            "depth": false
+        }
+    },
+    "stages": [
+        {
+            "type": "veil:blit",
+            "shader": "ancientmagic:impact_hate",
+            "in": "veil:post",
+            "out": "impact_tmp",
+            "clear": true
+        },
+        {
+            "type": "veil:copy",
+            "in": "impact_tmp",
+            "out": "veil:post",
+            "color": true
+        }
+    ]
+}

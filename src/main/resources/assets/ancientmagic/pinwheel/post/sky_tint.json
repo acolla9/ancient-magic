@@ -1,0 +1,23 @@
+{
+    "priority": -100,
+    "framebuffers": {
+        "sky_tmp": {
+            "depth": false
+        }
+    },
+    "stages": [
+        {
+            "type": "veil:blit",
+            "shader": "ancientmagic:sky_grade",
+            "in": "minecraft:main",
+            "out": "sky_tmp",
+            "clear": true
+        },
+        {
+            "type": "veil:copy",
+            "in": "sky_tmp",
+            "out": "veil:post",
+            "color": true
+        }
+    ]
+}

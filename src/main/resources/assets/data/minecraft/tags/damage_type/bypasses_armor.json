@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "ancientmagic:hate",
+        "ancientmagic:holy",
+        "ancientmagic:hate_erasure",
+        "ancientmagic:holy_erasure"
+    ]
+}

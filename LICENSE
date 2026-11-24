@@ -1,0 +1,30 @@
+Ancient Magic Attribution License
+Version 1.0
+
+Copyright (c) 2026 acolla9
+
+This license applies to the original Ancient Magic project code and original
+project materials authored by acolla9. Third-party code, libraries, templates,
+textures, models, and other assets retain their own licenses and terms.
+
+Permission is granted to view, use, modify, fork, and redistribute the covered
+materials, including publishing modified or unmodified versions on Modrinth,
+CurseForge, or similar services, provided that all of the following conditions
+are met:
+
+1. You give clear, visible credit to the original creator, acolla9, and link to
+   https://github.com/acolla9.
+2. You identify this project as the source and link to
+   https://github.com/acolla9/ancient-magic.
+3. For a fork or redistributed version, you keep this license and the original
+   attribution with the project, and include the attribution in the repository
+   README and the distribution page or description.
+4. You do not imply that your version is the official project or that acolla9
+   endorses your version without separate permission.
+
+Suggested attribution:
+"Based on Ancient Magic by acolla9: https://github.com/acolla9/ancient-magic"
+
+Except for the permissions expressly granted above, the covered materials are
+provided "AS IS", without warranty of any kind. The author is not liable for
+any claim, damages, or other liability arising from use of the materials.

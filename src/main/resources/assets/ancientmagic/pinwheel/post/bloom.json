@@ -1,0 +1,16 @@
+{
+    "framebuffers": {
+        "bloom_out": {
+            "depth": false
+        }
+    },
+    "stages": [
+        { "type": "veil:blit", "shader": "ancientmagic:bloom_extract",   "in": "minecraft:main",       "out": "ancientmagic:bloom_a", "clear": true },
+        { "type": "veil:blit", "shader": "ancientmagic:bloom_blur_h",    "in": "ancientmagic:bloom_a", "out": "ancientmagic:bloom_b", "clear": true },
+        { "type": "veil:blit", "shader": "ancientmagic:bloom_blur_v",    "in": "ancientmagic:bloom_b", "out": "ancientmagic:bloom_c", "clear": true },
+        { "type": "veil:blit", "shader": "ancientmagic:bloom_blur_h",    "in": "ancientmagic:bloom_c", "out": "ancientmagic:bloom_b", "clear": true },
+        { "type": "veil:blit", "shader": "ancientmagic:bloom_blur_v",    "in": "ancientmagic:bloom_b", "out": "ancientmagic:bloom_c", "clear": true },
+        { "type": "veil:blit", "shader": "ancientmagic:bloom_composite", "in": "veil:post",            "out": "bloom_out",            "clear": true },
+        { "type": "veil:copy", "in": "bloom_out", "out": "veil:post", "color": true }
+    ]
+}
