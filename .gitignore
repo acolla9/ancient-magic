@@ -41,3 +41,4 @@ repo/
 
 # Local source bundles are convenient to share but are not part of the Git source tree.
 ancientmagic-*.zip
+ancientmagic*.zip
